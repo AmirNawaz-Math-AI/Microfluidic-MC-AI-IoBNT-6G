@@ -17,9 +17,9 @@ This work is based on TU Dresden DFG Project by Dr. Pit Hofmann.
 
 ### Parameters used
 
-Diffusion coefficient D is 0.1 taken from Hofmann paper Figure 3. Paper says range 0.08 to 0.12 so average 0.1 is taken. Adjusted for SPU lab conditions.
+Diffusion coefficient D is 0.1 taken from Dr. Hofmann paper Figure 3. Paper says range 0.08 to 0.12 so average 0.1 is taken. Adjusted for SPU lab conditions.
 
-Flow velocity v is 0.5 taken from Hofmann Figure 2.
+Flow velocity v is 0.5 taken from Dr. Hofmann Figure 2.
 
 Channel distances tested are 1mm to 5mm. 10mm was also tried but error was too high 60 percent.
 
