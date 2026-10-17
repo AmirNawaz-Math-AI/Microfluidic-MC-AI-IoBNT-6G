@@ -94,9 +94,10 @@ Full traceability: docs/PARAMETERS_DETAIL.md
 
 ISI tail 10-35s Fig.4a, Flow-out sN+1 absorbing Eq16, Binding noise $w_k,v_k$ Fig.3 -> Red rises 12.8% to 44.8%.
 
+
 ## Fig.5 My Contribution — BER vs WER Improvement (Own Python Generated Result)
 
-![Fig5](images/Fig5_BER_WER.png)
+![Fig5](BER_Plot.jpg)
 
 *Fig.5: Microfluidic-MC-AI-IoBNT-6G: BER vs WER Improvement. X=Channel Distance mm 1-5, Y=Error Rate 0-0.45. Red • BER Raw, Orange ■ WER Simple LLM, Blue ▲ WER CPiFHSS-LLM Proposed.*
 
