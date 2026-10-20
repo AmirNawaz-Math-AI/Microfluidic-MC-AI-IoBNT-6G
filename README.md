@@ -10,11 +10,25 @@
 
 ### V1 Procedure (Heuristic)
 
-**Step1:** $$ \tau_d=d/v, \quad BER=0.08+0.07d+\mathcal{N}(0,0.02) $$
-**Step2:** $$ \mu_{ctx}=0.9-0.08d, \quad \theta=2\pi\tau_d/10, \quad \tilde{\mu}=\mu e^{j\theta} $$
-$$ E=1-(|\mu-\nu|+|\mu-\eta|+|\nu-\eta|)/2, \quad S=\mu_{ctx}(1-E)+0.5\mu_{ch} $$
-$$ WER_{simple}=0.3BER, \quad WER_{CPi}=BER(0.35-0.15S) $$
+**Step1 - Channel:**
 
+$$
+\tau_d = d/v, \quad BER = 0.08 + 0.07d + \mathcal{N}(0,0.02)
+$$
+
+**Step2 - CPiFHSS (Thesis Ch.3):**
+
+$$
+\mu_{ctx} = 0.9 - 0.08d, \quad \theta = 2\pi\tau_d/10, \quad \tilde{\mu} = \mu e^{j\theta}
+$$
+
+$$
+E = 1 - (|\mu-\nu| + |\mu-\eta| + |\nu-\eta|)/2, \quad S = \mu_{ctx}(1-E) + 0.5\mu_{ch}
+$$
+
+$$
+WER_{simple} = 0.3 BER, \quad WER_{CPi} = BER(0.35 - 0.15S)
+$$
 ### V1 Fig5 Results — BER vs WER Improvement (Own Python Generated Result)
 
 ![Fig5](BER_Plot.jpg)
